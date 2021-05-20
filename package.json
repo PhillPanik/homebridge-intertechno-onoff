@@ -2,12 +2,18 @@
   "name": "homebridge-intertechno-onoff",
   "version": "0.0.2",
   "description": "Homebridge switch for Intertechno devices",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "homebridge-plugin",
     "intertechno",
     "switch",
     "onoff"
+  ],
+  "main": "./index.js",
+  "files": [
+    ".gitignore",
+    "index.js",
+    "README.md"
   ],
   "repository": {
     "type": "git",
