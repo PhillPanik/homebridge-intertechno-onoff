@@ -1,6 +1,6 @@
 {
   "name": "homebridge-intertechno-onoff",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Homebridge switch for Intertechno devices",
   "license": "MIT",
   "keywords": [
