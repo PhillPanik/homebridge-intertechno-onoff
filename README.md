@@ -1,14 +1,11 @@
 # homebridge-intertechno-switch
-
 Homebridge plugin for Intertechno WLAN-Switch ITGW-433 Gateway.
 Sends only On or Off commands.
-
----
+_________________________________________
 
 ## IntertechnoSwitch Configuration Params
 
 Example configuration:
-
 ```
 {
           "accessory": "IntertechnoSwitch",
@@ -21,17 +18,18 @@ Example configuration:
 
 ## Configuration Params
 
-| Parameter | Description                        |
-| --------- | ---------------------------------- | ------- |
-| `name`    | Name of the accessory              |
-| `host`    | IP of WLAN-Switch ITGW-433 Gateway |
-| `port`    | 49880 (default)                    |
-| `code`    | [A-P][1-9]                         |
-| `state`   | 'true'                             | 'false' |
+|             Parameter            |                       Description                       | 
+| -------------------------------- | ------------------------------------------------------- |
+| `name`                           | Name of the accessory                                   |
+| `host`                           | IP of WLAN-Switch ITGW-433 Gateway                      |
+| `port`                           | 49880 (default)                                         |
+| `code`                           | [A-P][1-9]                                              |
+| `state`                          | 'true' | 'false'                                        |
+
 
 ## Help
 
-Code is composed of a capital letter [A-P] and a number [1-9].
+Code is composed of a capital letter [A-P] and a number [1-9]. 
 The code for your switch is setup using the WLAN Switch app from Intertechno.
 
 ## Installation
