@@ -9,8 +9,8 @@ Example configuration:
 ```
 {
           "accessory": "IntertechnoSwitch",
-          "name": "Pompa Aer",
-          "host": "192.168.0.1",
+          "name": "On Switch",
+          "host": "192.168.0.37",
           "code": "B2"
           "state": "true"
 }
@@ -24,7 +24,7 @@ Example configuration:
 | `host`                           | IP of WLAN-Switch ITGW-433 Gateway                      |
 | `port`                           | 49880 (default)                                         |
 | `code`                           | [A-P][1-9]                                              |
-| `state`                          | 'true' | 'false'                                        |
+| `state`                          | 'true' or 'false'                                       |
 
 
 ## Help
