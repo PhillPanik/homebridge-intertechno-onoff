@@ -15,6 +15,9 @@
     "index.js",
     "README.md"
   ],
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/phillpanik/homebridge-intertechno-onoff.git"

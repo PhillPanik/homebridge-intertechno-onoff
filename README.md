@@ -11,7 +11,7 @@ Example configuration:
           "accessory": "IntertechnoSwitch",
           "name": "On Switch",
           "host": "192.168.0.37",
-          "code": "B2"
+          "code": "B2",
           "state": "true"
 }
 ```
